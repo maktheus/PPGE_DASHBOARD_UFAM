@@ -1,0 +1,41 @@
+{
+  "name": "painel-ppgee-eletrica-e-computacao",
+  "version": "1.0.0",
+  "description": "Sistema de painel administrativo para gerenciamento de dados do PPGEE (Programa de Pós-Graduação em Engenharia Elétrica e Computação)",
+  "keywords": [
+    "ppgee",
+    "dashboard",
+    "analytics",
+    "react",
+    "typescript",
+    "vite",
+    "recharts"
+  ],
+  "homepage": "https://github.com/seu-usuario/painel-ppgee---eletrica-e-computacao#readme",
+  "bugs": {
+    "url": "https://github.com/seu-usuario/painel-ppgee---eletrica-e-computacao/issues"
+  },
+  "license": "MIT",
+  "author": "Seu Nome <seu_email@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/painel-ppgee---eletrica-e-computacao.git"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "recharts": "^3.1.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
