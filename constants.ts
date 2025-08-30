@@ -5,8 +5,8 @@ export const MOCK_GRADUATES: Graduate[] = [
   {
     id: '1',
     nome: 'Ana Silva',
-    anoIngresso: 2018,
-    anoDefesa: 2020,
+    anoIngresso: '03/03/2018',
+    anoDefesa: '15/02/2020',
     orientador: 'Dr. Carlos Pereira',
     tituloDefesa: 'Análise de Algoritmos de Machine Learning',
     curso: Course.MESTRADO,
@@ -18,8 +18,8 @@ export const MOCK_GRADUATES: Graduate[] = [
   {
     id: '2',
     nome: 'Bruno Costa',
-    anoIngresso: 2019,
-    anoDefesa: 2021,
+    anoIngresso: '10/03/2019',
+    anoDefesa: '25/02/2021',
     orientador: 'Dra. Beatriz Lima',
     tituloDefesa: 'Desenvolvimento de um Sistema Distribuído',
     curso: Course.MESTRADO,
@@ -31,8 +31,8 @@ export const MOCK_GRADUATES: Graduate[] = [
   {
     id: '3',
     nome: 'Carla Dias',
-    anoIngresso: 2017,
-    anoDefesa: 2021,
+    anoIngresso: '01/03/2017',
+    anoDefesa: '20/05/2021',
     orientador: 'Dr. João Mendes',
     tituloDefesa: 'Redes Neurais Profundas para Visão Computacional',
     curso: Course.DOUTORADO,
@@ -44,7 +44,7 @@ export const MOCK_GRADUATES: Graduate[] = [
   {
     id: '4',
     nome: 'Daniel Martins',
-    anoIngresso: 2022,
+    anoIngresso: '08/03/2022',
     orientador: 'Dr. Carlos Pereira',
     tituloDefesa: 'Estudo sobre Criptografia Quântica',
     curso: Course.MESTRADO,
@@ -55,8 +55,8 @@ export const MOCK_GRADUATES: Graduate[] = [
   {
     id: '5',
     nome: 'Eduarda Ferreira',
-    anoIngresso: 2020,
-    anoDefesa: 2022,
+    anoIngresso: '05/03/2020',
+    anoDefesa: '18/04/2022',
     orientador: 'Dra. Beatriz Lima',
     tituloDefesa: 'Otimização de Compiladores',
     curso: Course.MESTRADO,
@@ -68,7 +68,7 @@ export const MOCK_GRADUATES: Graduate[] = [
   {
     id: '6',
     nome: 'Fábio Gomes',
-    anoIngresso: 2021,
+    anoIngresso: '02/03/2021',
     orientador: 'Dr. João Mendes',
     tituloDefesa: 'Modelagem de Sistemas Complexos',
     curso: Course.DOUTORADO,
@@ -80,8 +80,8 @@ export const MOCK_GRADUATES: Graduate[] = [
    {
     id: '7',
     nome: 'Gabriela Rocha',
-    anoIngresso: 2019,
-    anoDefesa: 2023,
+    anoIngresso: '09/03/2019',
+    anoDefesa: '05/06/2023',
     orientador: 'Dr. Carlos Pereira',
     tituloDefesa: 'Inteligência Artificial em Jogos Digitais',
     curso: Course.DOUTORADO,
@@ -93,7 +93,7 @@ export const MOCK_GRADUATES: Graduate[] = [
   {
     id: '8',
     nome: 'Heitor Almeida',
-    anoIngresso: 2023,
+    anoIngresso: '04/03/2023',
     orientador: 'Dra. Beatriz Lima',
     tituloDefesa: 'Computação em Nuvem e Serverless',
     curso: Course.MESTRADO,
@@ -104,8 +104,8 @@ export const MOCK_GRADUATES: Graduate[] = [
 ];
 
 export const MOCK_USERS: User[] = [
-    { id: 'u1', name: 'Admin User', email: 'admin@example.com', role: 'Admin' },
-    { id: 'u2', name: 'Viewer User', email: 'viewer@example.com', role: 'Viewer' },
+    { id: 'u1', name: 'Usuário Administrador', email: 'admin@example.com', role: 'Administrador' },
+    { id: 'u2', name: 'Usuário Visualizador', email: 'viewer@example.com', role: 'Visualizador' },
 ];
 
 export const PT_BR_MONTHS = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
