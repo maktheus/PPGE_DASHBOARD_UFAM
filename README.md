@@ -110,6 +110,50 @@ npm run preview
 ```
 Permite visualizar o build de produção localmente.
 
+## 🐳 Execução com Docker
+
+### Usando Docker CLI (Desenvolvimento)
+
+1. Construa a imagem Docker para desenvolvimento:
+   ```bash
+   docker build -f Dockerfile.dev -t painel-ppgee-dev .
+   ```
+
+2. Execute o contêiner de desenvolvimento:
+   ```bash
+   docker run -p 5173:5173 -v $(pwd):/app -v /app/node_modules painel-ppgee-dev
+   ```
+
+3. Acesse a aplicação em `http://localhost:5173`
+
+### Usando Docker Compose (Desenvolvimento)
+
+1. Execute com docker-compose:
+   ```bash
+   docker-compose up -d
+   ```
+
+2. Acesse a aplicação em `http://localhost:5173`
+
+3. Para parar o contêiner:
+   ```bash
+   docker-compose down
+   ```
+
+### Usando Docker Compose (Produção)
+
+1. Execute com docker-compose em modo de produção:
+   ```bash
+   docker-compose -f docker-compose.prod.yml up -d
+   ```
+
+2. Acesse a aplicação em `http://localhost:5173`
+
+3. Para parar o contêiner:
+   ```bash
+   docker-compose -f docker-compose.prod.yml down
+   ```
+
 ## 📁 Estrutura do Projeto
 
 ```
