@@ -4,8 +4,11 @@ import UsersIcon from './icons/UsersIcon';
 import DatabaseIcon from './icons/DatabaseIcon';
 import ChevronDoubleLeftIcon from './icons/ChevronDoubleLeftIcon';
 import ChevronDoubleRightIcon from './icons/ChevronDoubleRightIcon';
+import BookOpenIcon from './icons/BookOpenIcon';
+import UserGroupIcon from './icons/UserGroupIcon';
+import NewspaperIcon from './icons/NewspaperIcon';
 
-type View = 'dashboard' | 'dataManagement' | 'admin';
+type View = 'dashboard' | 'turmas' | 'alunoRegular' | 'publicacoes' | 'dataManagement' | 'admin';
 
 interface SidebarProps {
   activeView: View;
@@ -17,6 +20,9 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ activeView, setActiveView, isCollapsed, onToggle }) => {
   const navItems = [
     { id: 'dashboard', label: 'Dashboard', icon: ChartBarIcon },
+    { id: 'turmas', label: 'Turmas', icon: BookOpenIcon },
+    { id: 'alunoRegular', label: 'Aluno Regular', icon: UserGroupIcon },
+    { id: 'publicacoes', label: 'Publicações', icon: NewspaperIcon },
     { id: 'dataManagement', label: 'Gerenciar Dados', icon: DatabaseIcon },
     { id: 'admin', label: 'Painel Admin', icon: UsersIcon },
   ];
